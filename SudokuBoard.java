@@ -38,3 +38,15 @@ public class SudokuBoard {
    }
 }
 
+/*
+change log
+1. added throws file not found exception
+2. was having troubles converting to int so i made it a char array.
+*/
+
+/*
+# PROGRAM OUTPUT
+
+doesnt run
+
+*/
