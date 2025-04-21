@@ -25,6 +25,16 @@ public class SudokuBoard {
    
    public String toString() {
       String result = "";
+      result += "_________________ \n";
+         for(int r = 0; r < board.length; r++) {
+            for(int c = 0; c < board[0].length; c++) {
+               result += board[r][c];    
+               result += " "; 
+            }   
+            result += "\n";
+	      }
+      result += "¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯ \n";
       return result;
    }
 }
+
